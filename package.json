@@ -4,28 +4,33 @@
     "description": "rest api for the water jug problem",
     "main": "index.js",
     "scripts": {
-      "build": "tsc",
-      "dev": "nodemon dev/index.ts",
-      "prod": "node prod/index.js"
+        "build": "tsc",
+        "dev": "nodemon dev/index.ts",
+        "prod": "node prod/index.js",
+        "test": "jest"
     },
     "keywords": [
-      "typescript",
-      "javascript",
-      "rest",
-      "api",
-      "water-jug"
+        "typescript",
+        "javascript",
+        "rest",
+        "api",
+        "water-jug"
     ],
     "author": "colgate666",
     "license": "MIT",
     "devDependencies": {
-      "@types/node": "^20.3.2",
-      "nodemon": "^2.0.22",
-      "ts-node": "^10.9.1",
-      "ts-watch": "^1.0.8",
-      "typescript": "^5.1.6"
+        "@types/jest": "^29.5.12",
+        "@types/mocha": "^10.0.6",
+        "@types/node": "^20.3.2",
+        "jest": "^29.7.0",
+        "nodemon": "^2.0.22",
+        "ts-jest": "^29.1.2",
+        "ts-node": "^10.9.1",
+        "ts-watch": "^1.0.8",
+        "typescript": "^5.1.6"
     },
     "dependencies": {
-      "fastify": "^4.18.0",
-      "zod": "^3.21.4"
+        "fastify": "^4.18.0",
+        "zod": "^3.21.4"
     }
-  }
+}
